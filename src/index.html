@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>digitalStromSwitch</title>
+
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+
+    <!-- Your own stylesheet (do not remove!)-->
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <div id="front">
+        <button id="my-button" style="width:250px;height:250px;" data-type="dizmo-button">Switch</button>
+    </div>
+    <div id="back">
+        <p>DSS IP and Port
+        <br/><input type="text" id="ip" style="width:100px" data-type="dizmo-input"><input type="text" id="port" style="width:100px" data-type="dizmo-input">
+        <p>Rooms
+        <br/><select id="room" style="width:200px" data-type="dizmo-selectbox"></select>
+        <p>Scene
+        <br/><select id="scene" style="width:200px" data-type="dizmo-selectbox"></select>
+        <div class="done-btn-wrapper">
+            <button id="doneBtn" class="done-btn" data-type="dizmo-button">Done</button>
+        </div>
+    </div>
+
+    <!-- Your own JavaScript (do not remove!) -->
+    <script type="text/javascript" src="application.js"></script>
+</body>
+</html>
