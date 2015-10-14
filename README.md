@@ -23,5 +23,5 @@ Then, replace "xxxxxx" with the token received in the variable data and uncommen
 
 ## Usage
 
-Now, you can turn the digitalStromSwitch dizmo to its back, set the IP-Address and Port of your DSS, choose a Room and a Scene. From the front side, you can simply switch on the selected scene in the selected Room.
+Now, you can turn the dizmo to its back, set the IP-Address and Port of your DSS, choose a Room and a Scene. From the front side, you can simply switch on the selected scene in the selected Room.
 
